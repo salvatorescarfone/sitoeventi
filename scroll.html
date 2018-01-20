@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+</style>
+</head>
+<body>
+
+<p>muovi la barra del textarea.</p>
+
+<div onscroll="myFunction()">
+Un evento è – molto semplicemente – qualcosa che accade nel documento.Anche nella vita quotidiana un evento è qualcosa che accade: ad esempio una tazzina di caffè che cade e si rompe. Il documento dunque è l’ambiente entro cui vengono realizzate delle “azioni”, in parte dovute alla volontà dell’utente (passaggio del mouse su un link, click su qualcosa…), altre volte dovute alla situazione contingente (la pagina è stata caricata).
+</div>
+
+<p>Scrolled <span id="demo">0</span> times.</p>
+
+<script>
+var x = 0;
+function myFunction() {
+    document.getElementById("demo").innerHTML = x += 1;
+}
+</script>
+
+</body>
+</html>
