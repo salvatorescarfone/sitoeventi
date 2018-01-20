@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Sito Eventi</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="page">
+    <header>
+      <div class="filtro">
+        <span class="colbtn">Eventi javascript</span>
+      </div>
+    </header>
+
+    <div class="cont">
+      <a onclick="switchPage(0)" href="#contenuto">
+        <div class="box1">
+          <div class="text">Tutorial</div>
+        </div>
+      </a>
+
+      <a onclick="switchPage(1)" href="#contenuto">
+        <div class="box2">
+          <div class="text">Esempi</div>
+        </div>
+      </a>
+    </div>
+
+    <div id="contenuto">
+
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
