@@ -12,20 +12,22 @@ div {
 </head>
 <body>
 
-<p>muovi la barra del textarea.</p>
 
-<div onscroll="myFunction()">
-Un evento Ë ñ molto semplicemente ñ qualcosa che accade nel documento.Anche nella vita quotidiana un evento Ë qualcosa che accade: ad esempio una tazzina di caffË che cade e si rompe. Il documento dunque Ë líambiente entro cui vengono realizzate delle ìazioniî, in parte dovute alla volont‡ dellíutente (passaggio del mouse su un link, click su qualcosaÖ), altre volte dovute alla situazione contingente (la pagina Ë stata caricata).
-</div>
 
-<p>Scrolled <span id="demo">0</span> times.</p>
+<p>muovi la scrollbar</p>
+<div id="myDIV">Un evento √® ‚Äì molto semplicemente ‚Äì qualcosa che accade nel documento.Anche nella vita quotidiana un evento √® qualcosa che accade: ad esempio una tazzina di caff√® che cade e si rompe. Il documento dunque √® l‚Äôambiente entro cui vengono realizzate delle ‚Äúazioni‚Äù, in parte dovute alla volont√† dell‚Äôutente (passaggio del mouse su un link, click su qualcosa‚Ä¶), altre volte dovute alla situazione contingente (la pagina √® stata caricata).
+
+<p id="demo"></p>
 
 <script>
-var x = 0;
+document.getElementById("myDIV").addEventListener("scroll", myFunction);
+
 function myFunction() {
-    document.getElementById("demo").innerHTML = x += 1;
+    document.getElementById("demo").innerHTML = "hai mosso la scrollbar.";
 }
 </script>
 
 </body>
 </html>
+
+
