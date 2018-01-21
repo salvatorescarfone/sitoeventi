@@ -10,7 +10,7 @@ body{
 
 div.page{
   width: 100%;
-  height: 1800px;
+  height: auto;
   border-radius: 8px;
   background-color: whitesmoke;
   box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.75);
@@ -114,14 +114,63 @@ div.text{
   text-transform: uppercase;
   letter-spacing: 7px;
   margin-top: 200px;
+  font-weight: bold;
 }
 
 #contenuto{
   border: 1px solid black;
   margin: 0 auto;
   width:90%;
-  height:950px;
+  height:auto;
+  padding:30px;
 }
+
+div.head{
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+span.title{
+  font: 40px "Lato", sans-serif;
+  letter-spacing: 2px;
+}
+
+div.tutorial{
+  margin-top:30px;
+  border: 2px dashed #000000;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+span.tut_title{
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size: 25px!important;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color:white;
+}
+
+p.event{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  margin: 15px 0 0 0;
+}
+
+li{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+ul{
+  list-style-type: square;
+  padding-left: 22px;
+}
+
 
 /*
 span{
