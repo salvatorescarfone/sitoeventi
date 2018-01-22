@@ -67,9 +67,9 @@ span.colbtn:hover{
 }
 
 div.box1, div.box2{
-  width:450px;
+  width:400px;
   min-width: 350px;
-  height:450px;
+  height:400px;
   min-height:350px;
   border-radius: 8px;
   box-shadow: 2px 2px 15px grey;
@@ -113,12 +113,11 @@ div.text{
   font: 40px "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 7px;
-  margin-top: 200px;
+  margin-top: 180px;
   font-weight: bold;
 }
 
 #contenuto{
-  border: 1px solid black;
   margin: 0 auto;
   width:90%;
   height:auto;
@@ -170,14 +169,3 @@ ul{
   list-style-type: square;
   padding-left: 22px;
 }
-
-
-/*
-span{
-
-    display: inline-block;
-    text-transform: uppercase;
-    margin-top: 20px;
-    color:#444;
-    font: 25px "Lato", sans-serif;
-}*/
