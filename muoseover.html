@@ -2,20 +2,25 @@
 <html>
 <body>
 
-<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="index.png"  width="64" height="64">
+<img  id="demo" border="0" src="index.png"  width="64" height="64">
 
 <p>muovi il cursore sull'immagine</p>
 
 
+
+
 <script>
-function bigImg(x) {
-    x.style.height = "128px";
-    x.style.width = "128px";
+document.getElementById("demo").addEventListener("mouseover", mouseOver);
+document.getElementById("demo").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+    document.getElementById("demo").style.height = "128px";
+    document.getElementById("demo").style.width = "128px";
 }
 
-function normalImg(x) {
-    x.style.height = "64px";
-    x.style.width = "64px";
+function mouseOut() {
+    document.getElementById("demo").style.height = "64px";
+    document.getElementById("demo").style.width = "64px";
 }
 </script>
 
